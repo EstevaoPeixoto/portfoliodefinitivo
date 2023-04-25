@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    background-color: #2B2D31;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+nav ul li{
+    width: 100%;
+    height: 100%;
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li:hover{
+    background-color: lightgray;
+}
+
+nav ul li a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color:black
+}
+
+section#portfolio{
+    background-color: white;
+    height: 100vh;
+    width: 99.4vw;
+    display: flex;
+    color: black;
+}
+
+section#portfolio div#img{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#portfolio div#texto{
+    padding-left: 150px;
+    background-color: darkgrey;
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+section#servicos{
+    border: 1px solid black;
+    background-color: white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+section#contato{
+    background-color: #2B2D31;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+section#contato img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+section#contato div#insta{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+section#contato div#twitter{
+    display: flex;
+    align-items: center;
+}
+
+section#contato div#github{
+    display: flex;
+    align-items: center;
+}
+
+section#contato div#email{
+    font-size: larger;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+div#email img{
+    width: 75px;
+}
+
+section#contato a{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+footer{
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer img{
+    margin-top: 5px;
+    width: 50px;
+}
+
+img#up{
+    width: 65px;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+}
