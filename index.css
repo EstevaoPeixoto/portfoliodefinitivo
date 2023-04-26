@@ -67,6 +67,17 @@ section#portfolio div#img{
     align-items: center;
 }
 
+section#portfolio div#img div#certificados{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+section#portfolio div#img div#certificados img{
+    width: 30%;
+}
+
 section#portfolio div#texto{
     padding-left: 150px;
     background-color: darkgrey;
