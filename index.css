@@ -97,7 +97,7 @@ section#portfolio div#texto{
 section#servicos{
     border: 1px solid black;
     background-color: white;
-    height: 100vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,7 +107,7 @@ section#servicos{
 
 section#contato{
     background-color: #2B2D31;
-    height: 50vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     align-items: center;
