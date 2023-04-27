@@ -61,14 +61,16 @@ section#portfolio{
 
 section#portfolio div#img{
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-section#portfolio div#img{
+section#portfolio div#img img{
     margin-top: 40px;
+    width: 50%;
 }
 
 section#portfolio div#img div#certificados{
